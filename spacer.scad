@@ -1,6 +1,6 @@
 $fn = 100;
 
-outer_diameter = 55;
+outer_diameter = 56;
 inner_diameter = 50;
 
 spacer_height = 20;
