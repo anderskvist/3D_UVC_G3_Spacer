@@ -10,7 +10,7 @@ screw_inner_diameter = 5;
 screw_offset = 22;
 screw_outer_diameter = 10;
 
-inner_hole_diameter = 32;
+inner_hole_diameter = 36;
 
 difference () {
   translate ([0,0,-spacer_height]) {
