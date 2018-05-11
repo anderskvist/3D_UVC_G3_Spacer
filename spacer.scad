@@ -32,4 +32,6 @@ difference () {
   // Space for screw holes
   translate([-screw_offset,0,0]) cylinder(inner_height + 1, screw_outer_diameter/2, screw_outer_diameter/2);
   translate([+screw_offset,0,0]) cylinder(inner_height + 1, screw_outer_diameter/2, screw_outer_diameter/2);
+  translate([-screw_offset,0,inner_height-1]) cylinder(2, screw_outer_diameter/2, screw_outer_diameter/2+2);
+  translate([+screw_offset,0,inner_height-1]) cylinder(2, screw_outer_diameter/2, screw_outer_diameter/2+2);
 }
